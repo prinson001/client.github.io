@@ -1,0 +1,273 @@
+@media screen and  (max-width:1200px)
+{
+    html,body
+    {
+        font-size:14px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and  (max-width:1024px)
+{
+    html,body
+    {
+        font-size:12px;
+        overflow-x: hidden;
+    }
+    .logo_img {
+        width: 70px;
+        padding-top: 6px;
+    }
+    .quick_info div:first-child {
+        width: 50%;
+    }
+    .quick_info div:last-child {
+        width: 40%;
+    }
+    .sidebar
+    {
+        height: 60px;
+        width:100%;
+    }
+    .about-section
+    {
+        width:100%;
+        margin-bottom: 170px;
+    }
+    .about-section_img img {
+        margin-left:0;
+        width:87%;
+    }
+
+
+    .row2,.roww
+    {
+        width:95%;
+    }
+
+
+    /*  profile section */
+
+    #ship-img
+    {
+        width:7rem;
+    }
+    #riyada-img
+    {
+        width: 15rem;
+    }
+    .contact-form
+    {
+        width:38%;
+    }
+    .rowww {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    html,body
+    {
+        font-size: 11px;
+    }
+    .first_box,.second_box
+    {
+        display: block;
+    }
+    .card
+    {
+        width:80%;
+        margin:auto;
+    }
+    .card2
+    {
+        margin-top: 50px;;
+    }
+    .about-section_img img 
+    {
+        margin-top:60px;
+    }
+    .about-section_para
+    {
+        font-size:1.1rem;
+    }
+    .roww
+    {
+        width:70%;
+    }
+    .col-4
+    {
+        min-width: 250px;
+    }
+
+    /*  profile section */
+
+    #ship-img
+    {
+        width:5rem;
+    }
+    #riyada-img
+    {
+        width: 13rem;
+    }
+    .contact-form
+    {
+        width:48%;
+    }
+    .contact_heading
+    {
+        padding-bottom: 40px;
+    }
+    .rowww {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:425px)
+{
+    p
+    {
+        font-size:14px;
+    }
+    .quick_info
+    {
+        width:100%;
+        justify-content: space-around;
+        padding: 0px 1rem;
+    }
+    .quick_info div:first-child {
+        display: none;
+    }
+    .quick_info div:last-child {
+        width: 100%;
+        font-size: 1rem ;
+    }
+    header .heading h1 {
+        font-size: 2rem;
+    }
+    .logo_img {
+        width: 60px;
+        padding-top: 10px;
+    }
+    .wrappers nav
+    {
+        height:60px;
+    }
+
+    nav .content .links {
+        top:76px;
+    }
+
+    .about-section
+    {
+        margin-top: 250px;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 100px;
+    }
+    .about-section h3
+    {
+        margin-top: 120px;
+    }
+    
+    .about-section_para,.about-section_img 
+    {
+        width: 100%;
+    }
+    .about-section_para
+    {
+        margin-top: 50px;
+    }
+    .about-section_img
+    {
+        position: relative;
+    }
+    .about-section_img img 
+    {
+        width:80%;
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+        top:-160px;
+    }
+    .col-4
+    {
+        min-width: 300px;
+    }
+    .profile_section div {
+        width: 93%;
+    }
+    .profile_section-h2 {
+        text-align: center;
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0 10px;
+    }
+    .contact-form
+    {
+        width:75%;
+    }
+    .address_card, .number_card, .email_card {
+        width: 80.33%;
+        margin-top:10px;
+        height: 180px;
+        padding: 5px 60px;
+        border-top: 1px solid red;
+    }
+    .quick-links,.social-links
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-links
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:375px)
+{
+    .quick_info div:first-child {
+        width: 10%;
+    }
+    .quick_info div:last-child {
+        width: 80%;
+    }
+    .about-section
+    {
+        margin-top: 300px;
+    }
+    .profile_section div {
+        width: 98%;
+    }
+    #riyada-img {
+        width: 11rem;
+    }
+}
+@media screen and (max-width:320px)
+{
+    .quick_info div:last-child {
+        width: 100%;
+    }
+    .about-section_para {
+        padding: 0px 34px;
+    }
+    .profile_section div {
+        width: 100%;
+    }
+    .profile_section div h3
+    {
+        width:44%;
+    }
+    .profile_section-info {
+        width: 91%;
+    }
+    .address_card, .number_card, .email_card {
+        width: 97.33%;
+        padding: 5px 45px;
+        min-height: 236px;
+    }
+}
