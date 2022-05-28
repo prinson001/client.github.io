@@ -338,6 +338,12 @@ header .heading h3{
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+.about-section_para p
+{
+  text-align: left;
+  font-size:1.3rem;
+}
+
 /*****************************  VISION MISSION SECTION ****************/
 .vision_mission-section
 {
@@ -631,6 +637,17 @@ header .heading h3{
     text-align:center;
     min-height:300px;
     padding:0px 60px;
+}
+.number-para a 
+{
+  line-height: 1.4;
+  text-decoration: none;
+  color:inherit;
+}
+.number-para a:hover
+{
+  /* color:#dcd101; */
+  color:red;
 }
 /************** FOOTER *****************/
 
