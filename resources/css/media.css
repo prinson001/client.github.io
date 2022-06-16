@@ -75,6 +75,18 @@
     {
         display: block;
     }
+    .heading
+    {
+        width: 100vw;
+    }
+    .logo-container
+    {
+        width: 54%;
+    }
+    .riyada-logo
+    {
+        width: 30%;
+    }
     .card
     {
         width:80%;
@@ -130,6 +142,10 @@
     p
     {
         font-size:14px;
+    }
+    .logo-container
+    {
+        width: 54%;
     }
     .quick_info
     {

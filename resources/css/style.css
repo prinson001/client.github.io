@@ -38,11 +38,30 @@ body::-webkit-scrollbar-track
 header{
     width:100vw;
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/jeriden-villegas-VLPUm5wP5Z0-unsplash-min-min.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes img {
+  0%,100%{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/jeriden-villegas-VLPUm5wP5Z0-unsplash-min-min.jpg");
+  }
+  25%
+  {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/fire-min.jpg");
+  }
+  50%{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/chemical.jpg");
+  }
+  75%{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/instrumentation.jpg");
+  }
 }
 header .heading{
     position: absolute;
@@ -53,17 +72,10 @@ header .heading{
     text-align:center;
 }
 header .heading h1{
-    font-size:3rem;
-    line-height:1.7;
-    letter-spacing: 2px;
-    font-weight: 500;
-    transition: text-shadow,margin-bottom .3s ease-out;
-}
-header .heading h1:hover{
-    text-shadow: 0px 0px 10px #fff,
-                 0px 0px 20px #fff,
-                 0px 0px 30px #fff;
-    margin-bottom: 20px;
+    font-size:3.2rem;
+    line-height:1.2;
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
 }
 header .heading h3{
     font-size: 1.4rem;
@@ -105,7 +117,17 @@ header .heading h3{
 {
   top:0;
 }
-
+.logo-container
+{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.riyada-logo
+{
+  width: 40%;
+}
 .wrappers{
     background: #171c24;
     position: fixed;
@@ -560,7 +582,10 @@ header .heading h3{
 
 
 /*********************** CONTACT FORM ******************/
-
+.contact
+{
+  background-color: #f5f5f5;
+}
 .contact_heading
 {
     padding-top: 70px;
@@ -648,6 +673,13 @@ header .heading h3{
 {
   /* color:#dcd101; */
   color:red;
+}
+.maps
+{
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
 }
 /************** FOOTER *****************/
 
