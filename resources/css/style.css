@@ -42,25 +42,37 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    animation-name: img;
+    transition: 5s;
+
+    animation-name:img ;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode:forwards ;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
 }
 @keyframes img {
-  0%,100%{
+  0%{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/jeriden-villegas-VLPUm5wP5Z0-unsplash-min-min.jpg");
   }
-  25%
+  20%
   {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/fire-min.jpg");
   }
-  50%{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/chemical.jpg");
+  40%{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/images-oman/1.jpeg");
   }
-  75%{
+  60%{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/instrumentation.jpg");
+  }
+  80%
+  {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/instrumentation.jpg");
+  }
+  100%
+  {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/images-oman/2.jpeg");
   }
 }
 header .heading{
@@ -94,6 +106,7 @@ header .heading h3{
   justify-content: space-evenly;
   color:white;
   font-size: 14px;
+  padding: 0 1rem;
 }
 .quick_info div:first-child
 {
@@ -101,7 +114,7 @@ header .heading h3{
 }
 .quick_info div:last-child
 {
-  width:20%;
+  width:30%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,6 +140,10 @@ header .heading h3{
 .riyada-logo
 {
   width: 40%;
+}
+.emaar-logo
+{
+  width: 30%;
 }
 .wrappers{
     background: #171c24;

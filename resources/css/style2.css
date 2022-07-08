@@ -12,6 +12,7 @@
     margin:20px auto;
     width:80%;
     }
+  
     html ,body{
         width:100vw;
         height:100vh;
@@ -330,6 +331,10 @@
 {
   width: 40%;
 }
+.emaar-logo
+{
+  width: 20%;
+}
   .wrappers a
   {
       text-decoration: none;
@@ -594,10 +599,13 @@ footer p
 {
     .logo-container
     {
-        width: 54%;
+        width: 58%;
     }
     .riyada-logo
     {
         width: 50%;
     }
   }
+.emaar-logo{
+  width: 30%;
+}

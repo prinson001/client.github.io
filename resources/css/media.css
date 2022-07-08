@@ -22,7 +22,7 @@
         width: 50%;
     }
     .quick_info div:last-child {
-        width: 40%;
+        width: 50%;
     }
     .sidebar
     {
@@ -74,6 +74,12 @@
     .first_box,.second_box
     {
         display: block;
+    }
+    .quick_info div:first-child {
+        width: 30%;
+    }
+    .quick_info div:last-child {
+        width: 70%;
     }
     .heading
     {
@@ -145,7 +151,7 @@
     }
     .logo-container
     {
-        width: 54%;
+        width: 58%;
     }
     .riyada-logo
     {
